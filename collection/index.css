@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    position: relative;
+}
+
+.header {
+    height: 50px;
+    background-color: blue;
+}
+
+.contetnts {
+    height: 920px;
+    background-color: red;
+}
+
+.contetnts-title {
+    height: 50px;
+    font-size: 20px;
+}
+
+.survey-area {
+    height: 90%;
+    background-color: black;
+}
+
+.survey {
+    height: 33%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.question-1 {
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.question-2 {
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+
+.q-title-1 {
+    margin: auto;
+    padding: 10px;
+    height: 25px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.q-list {
+    margin: auto;
+    padding: 10px;
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+li {
+    line-height: 30px;
+}
+
+.result {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-form {
+    width: 80%;
+}
+
+.select-item {
+    margin-top: 10px;
+    position: relative;
+}
+
+.select-item-result {
+    position: relative;
+    left: 40%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.select-item li {
+    position: absolute;
+    list-style: none;
+}
+
+.footer {
+    position: fixed;
+    height: 50px;
+    background-color: blue;
+    bottom: 0px;
+    width: 100%;
+}
