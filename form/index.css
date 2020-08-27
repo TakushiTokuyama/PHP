@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+
+.form_area {
+    height: 600px;
+    width: 600px;
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+    background-color: bisque;
+}
+
+.form_contents {
+    height: 500px;
+    width: 500px;
+    margin: 50vh auto 0;
+    transform: translateY(10%);
+    background-color: white;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+    width: 300px;
+}
+
+.input_area {
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    margin-left: 1px;
+}
+
+.input_textarea {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input_text {
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.input_select {
+    position: absolute;
+    top: 90px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.input_query {
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translateX(-50%);
+}
