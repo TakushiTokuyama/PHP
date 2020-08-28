@@ -30,6 +30,6 @@
             </div>
         </div>
         <div class=footer>footer</div>
-        <script type="text/javascript" src="/index.js"></script>
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
